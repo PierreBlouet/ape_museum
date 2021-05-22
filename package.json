@@ -1,5 +1,5 @@
 {
-  "name": "trippin",
+  "name": "ape_museum",
   "version": "1.0.0",
   "description": "",
   "main": "script.js",
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/PierreBlouet/trippin.git"
+    "url": "git+https://github.com/PierreBlouet/ape_museum.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/PierreBlouet/trippin/issues"
+    "url": "https://github.com/PierreBlouet/ape_museum/issues"
   },
-  "homepage": "https://github.com/PierreBlouet/trippin#readme",
+  "homepage": "https://github.com/PierreBlouet/ape_museum#readme",
   "dependencies": {
     "gh-pages": "^4.0.0"
   }
