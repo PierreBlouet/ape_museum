@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Wendy+One&display=swap');
+
+body {
+  font-family: 'Wendy One', sans-serif;
+  background: #F7CA05;
+  display: flex;
+  justify-content: center;
+  font-size:2em;
+}
+
+.box {
+  position: relative;
+  justify-content: center;
+
+}
+
+h3 {
+  margin-top: 30px;
+  font-size:8vw;
+  white-space: nowrap;
+  color: #F7CA05;
+  text-shadow: 0 10px 7px rgba(0,0,0,0.4),0 -10px 1px #fff;
+  letter-spacing: -3px;
+}
+
+h3:hover {
+  animation: glitch .3s linear infinite;
+  cursor: pointer;
+}
+
+@keyframes glitch {
+  0% {
+    transform: translate(0);
+  }
+  20% {
+    transform: translate(-2px, 2px);
+  }
+  40% {
+    transform: translate(-2px, -2px);
+  }
+  60% {
+    transform: translate(2px, 2px);
+  }
+  80% {
+    transform: translate(2px, -2px);
+  }
+  100% {
+    transform: translate(0);
+  }
+}
+
+#monkey{
+  position: absolute;
+  width: 435px;
+  bottom:0%;
+  left:0%;
+  transition: 4s ;
+}
+
+.animate{
+  transform: translate(0px, 500px);
+}
+
+
+html, body{
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+#discover{
+  font-size: 4vw;
+  position: absolute;
+  height: fit-content;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  outline: none;
+  color: white;
+  border: 4px solid rgb(255, 255, 255);
+  font-family: 'Lato', sans-serif;
+  font-weight: 900;
+  background: transparent;
+  cursor: pointer;
+  margin: 20px;
+  padding: 10px 25px;
+  z-index: 10;
+}
+
+.btn-1 {
+  transition: all 0.5s ease;
+}
+.btn-1:hover {
+   box-shadow:
+   -7px -7px 20px 0px #fff9,
+   -4px -4px 5px 0px #fff9,
+   7px 7px 20px 0px #0002,
+   4px 4px 5px 0px #0001;
+}
+
+.btn-1:active {
+  
+}
+
+#encima{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  background: black;
+  background-size: cover;
+
+  -webkit-mask: url(http://i.imgur.com/AYJuRke.png);
+  -webkit-mask-size: 3000% 100%;
+
+  
+  
+}
+
+
+@-webkit-keyframes mask-playzero {
+    from {
+    -webkit-mask-position: 0 0;
+    -ms-mask-position: 0 0;
+    -moz-mask-position: 0 0;
+    -o-mask-position: 0 0;
+    mask-position: 0 0;
+}
+to {
+    -webkit-mask-position: 100% 0;
+    -ms-mask-position: 100% 0;
+    -moz-mask-position: 100% 0;
+    -o-mask-position: 100% 0;
+    mask-position: 100% 0;
+}
+}

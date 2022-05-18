@@ -1,0 +1,23 @@
+{
+  "name": "trippin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PierreBlouet/trippin.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PierreBlouet/trippin/issues"
+  },
+  "homepage": "https://github.com/PierreBlouet/trippin#readme",
+  "dependencies": {
+    "gh-pages": "^4.0.0"
+  }
+}
